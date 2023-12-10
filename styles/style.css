@@ -286,14 +286,18 @@
     font-weight: 400;
 }
 
-.about__text :nth-child(2) {
+.about__text p {
     margin-bottom: 22px;
+}
+
+.about__text p:last-child{
+    margin-bottom: 0;
 }
 
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 183px 50px;
+    padding: 183px 50px 90px 50px;
 }
 
 .footer__menu-link {
@@ -307,7 +311,7 @@
 .footer__menu-list-item {
     color: #000;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
